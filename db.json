@@ -1,0 +1,1336 @@
+{
+  "users": {
+    "creator_priya_tn": {
+      "uid": "creator_priya_tn",
+      "email": "priya@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ravi_telegu": {
+      "uid": "creator_ravi_telegu",
+      "email": "ravi@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ramesh_kannada": {
+      "uid": "creator_ramesh_kannada",
+      "email": "ramesh@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ananya_bengali": {
+      "uid": "creator_ananya_bengali",
+      "email": "ananya@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_swapnil_marathi": {
+      "uid": "creator_swapnil_marathi",
+      "email": "swapnil@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_manoj_bhojpuri": {
+      "uid": "creator_manoj_bhojpuri",
+      "email": "manoj@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_harpreet_punjabi": {
+      "uid": "creator_harpreet_punjabi",
+      "email": "harpreet@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_juri_assamese": {
+      "uid": "creator_juri_assamese",
+      "email": "juri@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_sandeep_telangana": {
+      "uid": "creator_sandeep_telangana",
+      "email": "sandeep@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_deepa_tamil": {
+      "uid": "creator_deepa_tamil",
+      "email": "deepa@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_rohit_marathi": {
+      "uid": "creator_rohit_marathi",
+      "email": "rohit@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_subhasish_bengali": {
+      "uid": "creator_subhasish_bengali",
+      "email": "subhasish@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_amrita_punjabi": {
+      "uid": "creator_amrita_punjabi",
+      "email": "amrita@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_kedar_kannada": {
+      "uid": "creator_kedar_kannada",
+      "email": "kedar@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_pinky_bhojpuri": {
+      "uid": "creator_pinky_bhojpuri",
+      "email": "pinky@creato.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "CREATOR",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_indid2c": {
+      "uid": "brand_indid2c",
+      "email": "contact@indid2c.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "BRAND",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_bharatpay": {
+      "uid": "brand_bharatpay",
+      "email": "marketing@bharatpay.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "BRAND",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_sringara": {
+      "uid": "brand_sringara",
+      "email": "collabs@sringara.com",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "BRAND",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_mithaiwala": {
+      "uid": "brand_mithaiwala",
+      "email": "orders@mithaiwala.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "BRAND",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_gyanedu": {
+      "uid": "brand_gyanedu",
+      "email": "partnerships@gyanedu.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "BRAND",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_swadeshi": {
+      "uid": "brand_swadeshi",
+      "email": "hello@swadeshiwear.in",
+      "passwordHash": "$2b$10$dYb20itaKPGrKKi2Xe6Br.sPGz4R00zdeGATveI/Ip3q3ycwkGm8K",
+      "role": "BRAND",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    }
+  },
+  "creatorProfiles": {
+    "creator_priya_tn": {
+      "uid": "creator_priya_tn",
+      "displayName": "Priya Sharma",
+      "handle": "priya_cooks",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "primaryLanguage": "Tamil",
+      "secondaryLanguages": [
+        "English",
+        "Hindi"
+      ],
+      "niche": "Food",
+      "followerCount": 12000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop",
+      "bio": "Sharing traditional Tamil home recipes with a modern twist. Love exploring regional spices!",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ravi_telegu": {
+      "uid": "creator_ravi_telegu",
+      "displayName": "Ravi Teja",
+      "handle": "ravi_laughs",
+      "city": "Hyderabad",
+      "state": "Andhra Pradesh",
+      "primaryLanguage": "Telugu",
+      "secondaryLanguages": [
+        "English"
+      ],
+      "niche": "Comedy",
+      "followerCount": 45000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      "bio": "Daily Telugu comedy sketches and relatable middle-class family humor.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ramesh_kannada": {
+      "uid": "creator_ramesh_kannada",
+      "displayName": "Ramesh Kumar",
+      "handle": "ramesh_finance",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "primaryLanguage": "Kannada",
+      "secondaryLanguages": [
+        "English",
+        "Telugu"
+      ],
+      "niche": "Finance",
+      "followerCount": 28000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
+      "bio": "Demystifying personal finance, stock market, and tax planning in Kannada.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ananya_bengali": {
+      "uid": "creator_ananya_bengali",
+      "displayName": "Ananya Sen",
+      "handle": "ananya_beauty",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "primaryLanguage": "Bengali",
+      "secondaryLanguages": [
+        "English",
+        "Hindi"
+      ],
+      "niche": "Beauty",
+      "followerCount": 64000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+      "bio": "Saree drapes, skin care routines, and traditional Bengali bridal makeup guides.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_swapnil_marathi": {
+      "uid": "creator_swapnil_marathi",
+      "displayName": "Swapnil Patil",
+      "handle": "swapnil_edu",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "primaryLanguage": "Marathi",
+      "secondaryLanguages": [
+        "Hindi"
+      ],
+      "niche": "Education",
+      "followerCount": 8500,
+      "profileImageUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
+      "bio": "Simplifying school math and science concepts for Marathi medium students.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_manoj_bhojpuri": {
+      "uid": "creator_manoj_bhojpuri",
+      "displayName": "Manoj Tiwari Jr.",
+      "handle": "manoj_shows",
+      "city": "Patna",
+      "state": "Bihar",
+      "primaryLanguage": "Bhojpuri",
+      "secondaryLanguages": [
+        "Hindi"
+      ],
+      "niche": "Entertainment",
+      "followerCount": 75000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop",
+      "bio": "Bhojpuri reaction videos, movie news, and rural comedy skits.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_harpreet_punjabi": {
+      "uid": "creator_harpreet_punjabi",
+      "displayName": "Harpreet Singh",
+      "handle": "harpreet_eats",
+      "city": "Amritsar",
+      "state": "Punjab",
+      "primaryLanguage": "Punjabi",
+      "secondaryLanguages": [
+        "Hindi",
+        "English"
+      ],
+      "niche": "Food",
+      "followerCount": 32000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop",
+      "bio": "Dhadas, local Punjab street food stalls, and oversized butter naan recipes.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_juri_assamese": {
+      "uid": "creator_juri_assamese",
+      "displayName": "Juri Boro",
+      "handle": "juri_travels",
+      "city": "Guwahati",
+      "state": "Assam",
+      "primaryLanguage": "Assamese",
+      "secondaryLanguages": [
+        "English"
+      ],
+      "niche": "Travel",
+      "followerCount": 15000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
+      "bio": "Backpacking across northeast India, showcasing Assam's tea gardens and tribal cultures.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_sandeep_telangana": {
+      "uid": "creator_sandeep_telangana",
+      "displayName": "Sandeep Reddy",
+      "handle": "sandeep_tech",
+      "city": "Warangal",
+      "state": "Telangana",
+      "primaryLanguage": "Telugu",
+      "secondaryLanguages": [
+        "English"
+      ],
+      "niche": "Tech",
+      "followerCount": 50000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&h=150&fit=crop",
+      "bio": "Mobile unboxings, buying guides, and software tips in simple Telugu.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_deepa_tamil": {
+      "uid": "creator_deepa_tamil",
+      "displayName": "Deepa Balan",
+      "handle": "deepa_academy",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "primaryLanguage": "Tamil",
+      "secondaryLanguages": [],
+      "niche": "Education",
+      "followerCount": 6200,
+      "profileImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop",
+      "bio": "English speaking and grammar courses designed specifically for Tamil speakers.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_rohit_marathi": {
+      "uid": "creator_rohit_marathi",
+      "displayName": "Rohit Shinde",
+      "handle": "rohit_eats_pune",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "primaryLanguage": "Marathi",
+      "secondaryLanguages": [
+        "Hindi"
+      ],
+      "niche": "Food",
+      "followerCount": 19000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&h=150&fit=crop",
+      "bio": "Vlogging street food and budget eateries in Pune and Kolhapur.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_subhasish_bengali": {
+      "uid": "creator_subhasish_bengali",
+      "displayName": "Subhasish Das",
+      "handle": "subha_tech_tips",
+      "city": "Siliguri",
+      "state": "West Bengal",
+      "primaryLanguage": "Bengali",
+      "secondaryLanguages": [],
+      "niche": "Tech",
+      "followerCount": 3500,
+      "profileImageUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&h=150&fit=crop",
+      "bio": "PC building and tech repair videos in Bengali. Short and simple.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_amrita_punjabi": {
+      "uid": "creator_amrita_punjabi",
+      "displayName": "Amrita Kaur",
+      "handle": "amrita_makeup",
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "primaryLanguage": "Punjabi",
+      "secondaryLanguages": [
+        "Hindi",
+        "English"
+      ],
+      "niche": "Beauty",
+      "followerCount": 52000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop",
+      "bio": "Punjabi wedding look tutorials, product reviews, and local outfit hauls.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_kedar_kannada": {
+      "uid": "creator_kedar_kannada",
+      "displayName": "Kedar Gowda",
+      "handle": "kedar_vlogs",
+      "city": "Mysore",
+      "state": "Karnataka",
+      "primaryLanguage": "Kannada",
+      "secondaryLanguages": [
+        "English"
+      ],
+      "niche": "Comedy",
+      "followerCount": 22000,
+      "profileImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop",
+      "bio": "Pranks and comedy vlogs capturing daily life in Karnataka's heritage city.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_pinky_bhojpuri": {
+      "uid": "creator_pinky_bhojpuri",
+      "displayName": "Pinky Singh",
+      "handle": "pinky_bhojpuri_rasoi",
+      "city": "Gaya",
+      "state": "Bihar",
+      "primaryLanguage": "Bhojpuri",
+      "secondaryLanguages": [
+        "Hindi"
+      ],
+      "niche": "Food",
+      "followerCount": 18500,
+      "profileImageUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=150&h=150&fit=crop",
+      "bio": "Traditional Bihari recipes, Litti Chokha specials, and simple kitchen hacks in Bhojpuri.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    }
+  },
+  "brandProfiles": {
+    "brand_indid2c": {
+      "uid": "brand_indid2c",
+      "companyName": "IndiD2C",
+      "industry": "FMCG",
+      "logoUrl": "https://images.unsplash.com/photo-1516841273335-e39b37888115?w=100&h=100&fit=crop",
+      "city": "Bangalore",
+      "description": "Direct-to-consumer organic snacks tailored to Indian regional preferences. Healthy and delicious.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_bharatpay": {
+      "uid": "brand_bharatpay",
+      "companyName": "BharatPay",
+      "industry": "Fintech",
+      "logoUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=100&h=100&fit=crop",
+      "city": "Mumbai",
+      "description": "Empowering small merchants across tier-2 and tier-3 India with simple digital billing and payment solutions.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_sringara": {
+      "uid": "brand_sringara",
+      "companyName": "Sringara Cosmetics",
+      "industry": "Beauty",
+      "logoUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=100&h=100&fit=crop",
+      "city": "Delhi",
+      "description": "Vegan and cruelty-free makeup designed for diverse Indian skin tones. Authentic, cruelty-free beauty.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_mithaiwala": {
+      "uid": "brand_mithaiwala",
+      "companyName": "MithaiWala",
+      "industry": "Food",
+      "logoUrl": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=100&h=100&fit=crop",
+      "city": "Jaipur",
+      "description": "Delivering traditional sweets and dry fruits made with pure ghee directly to households across major Indian cities.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_gyanedu": {
+      "uid": "brand_gyanedu",
+      "companyName": "GyanEdu",
+      "industry": "Edtech",
+      "logoUrl": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=100&h=100&fit=crop",
+      "city": "Noida",
+      "description": "After-school K-12 tutorials and mock test preps recorded in regional vernacular Indian languages.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    },
+    "brand_swadeshi": {
+      "uid": "brand_swadeshi",
+      "companyName": "Swadeshi Wear",
+      "industry": "Apparel",
+      "logoUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=100&h=100&fit=crop",
+      "city": "Chennai",
+      "description": "Sustainably sourced ethnic and fusion wear celebrating handloom fabrics and Indian weaves.",
+      "createdAt": "2026-07-10T08:55:41.407Z"
+    }
+  },
+  "atiScores": {
+    "creator_priya_tn": {
+      "creatorUid": "creator_priya_tn",
+      "overallScore": 90,
+      "engagementAuthenticity": 100,
+      "vernacularDepth": 85,
+      "communityDepth": 90,
+      "localRelevance": 78,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ravi_telegu": {
+      "creatorUid": "creator_ravi_telegu",
+      "overallScore": 75,
+      "engagementAuthenticity": 75,
+      "vernacularDepth": 80,
+      "communityDepth": 76,
+      "localRelevance": 70,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ramesh_kannada": {
+      "creatorUid": "creator_ramesh_kannada",
+      "overallScore": 73,
+      "engagementAuthenticity": 56,
+      "vernacularDepth": 72,
+      "communityDepth": 96,
+      "localRelevance": 82,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_ananya_bengali": {
+      "creatorUid": "creator_ananya_bengali",
+      "overallScore": 86,
+      "engagementAuthenticity": 94,
+      "vernacularDepth": 88,
+      "communityDepth": 80,
+      "localRelevance": 75,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_swapnil_marathi": {
+      "creatorUid": "creator_swapnil_marathi",
+      "overallScore": 96,
+      "engagementAuthenticity": 100,
+      "vernacularDepth": 92,
+      "communityDepth": 100,
+      "localRelevance": 90,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_manoj_bhojpuri": {
+      "creatorUid": "creator_manoj_bhojpuri",
+      "overallScore": 38,
+      "engagementAuthenticity": 19,
+      "vernacularDepth": 55,
+      "communityDepth": 40,
+      "localRelevance": 48,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_harpreet_punjabi": {
+      "creatorUid": "creator_harpreet_punjabi",
+      "overallScore": 88,
+      "engagementAuthenticity": 100,
+      "vernacularDepth": 82,
+      "communityDepth": 88,
+      "localRelevance": 72,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_juri_assamese": {
+      "creatorUid": "creator_juri_assamese",
+      "overallScore": 83,
+      "engagementAuthenticity": 88,
+      "vernacularDepth": 78,
+      "communityDepth": 84,
+      "localRelevance": 81,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_sandeep_telangana": {
+      "creatorUid": "creator_sandeep_telangana",
+      "overallScore": 76,
+      "engagementAuthenticity": 85,
+      "vernacularDepth": 75,
+      "communityDepth": 72,
+      "localRelevance": 65,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_deepa_tamil": {
+      "creatorUid": "creator_deepa_tamil",
+      "overallScore": 96,
+      "engagementAuthenticity": 100,
+      "vernacularDepth": 94,
+      "communityDepth": 100,
+      "localRelevance": 88,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_rohit_marathi": {
+      "creatorUid": "creator_rohit_marathi",
+      "overallScore": 74,
+      "engagementAuthenticity": 73,
+      "vernacularDepth": 74,
+      "communityDepth": 70,
+      "localRelevance": 78,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_subhasish_bengali": {
+      "creatorUid": "creator_subhasish_bengali",
+      "overallScore": 27,
+      "engagementAuthenticity": 13,
+      "vernacularDepth": 40,
+      "communityDepth": 30,
+      "localRelevance": 30,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_amrita_punjabi": {
+      "creatorUid": "creator_amrita_punjabi",
+      "overallScore": 85,
+      "engagementAuthenticity": 90,
+      "vernacularDepth": 84,
+      "communityDepth": 84,
+      "localRelevance": 76,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_kedar_kannada": {
+      "creatorUid": "creator_kedar_kannada",
+      "overallScore": 90,
+      "engagementAuthenticity": 100,
+      "vernacularDepth": 81,
+      "communityDepth": 92,
+      "localRelevance": 80,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    },
+    "creator_pinky_bhojpuri": {
+      "creatorUid": "creator_pinky_bhojpuri",
+      "overallScore": 95,
+      "engagementAuthenticity": 100,
+      "vernacularDepth": 90,
+      "communityDepth": 100,
+      "localRelevance": 86,
+      "lastUpdated": "2026-07-10T08:55:41.407Z"
+    }
+  },
+  "deals": {
+    "deal_sample_1": {
+      "id": "deal_sample_1",
+      "creatorUid": "creator_priya_tn",
+      "brandUid": "brand_indid2c",
+      "deliverableType": "Instagram Video",
+      "amount": 4500,
+      "brief": "Create an Instagram Reel demonstrating recipes featuring IndiD2C spicy banana chips.",
+      "status": "COUNTERED",
+      "createdAt": "2026-07-10T08:55:41.407Z",
+      "updatedAt": "2026-07-10T08:55:41.407Z"
+    },
+    "deal_sample_2": {
+      "id": "deal_sample_2",
+      "creatorUid": "creator_ravi_telegu",
+      "brandUid": "brand_bharatpay",
+      "deliverableType": "YouTube Short",
+      "amount": 15000,
+      "brief": "A funny comedy sketch explaining QR code scanning in regional markets.",
+      "status": "OFFER_SENT",
+      "createdAt": "2026-07-10T08:55:41.407Z",
+      "updatedAt": "2026-07-10T08:55:41.407Z"
+    },
+    "deal_sample_3": {
+      "id": "deal_sample_3",
+      "creatorUid": "creator_ananya_bengali",
+      "brandUid": "brand_sringara",
+      "deliverableType": "Instagram Reel",
+      "amount": 12000,
+      "brief": "Review the new vegan lip oil collection in a simple Bengali styling video.",
+      "status": "ACCEPTED",
+      "createdAt": "2026-07-10T08:55:41.407Z",
+      "updatedAt": "2026-07-10T08:55:41.407Z"
+    }
+  },
+  "dealMessages": {
+    "deal_sample_1": [
+      {
+        "id": "msg_1_1",
+        "senderUid": "brand_indid2c",
+        "message": "Hey Priya, we love your content! We would love to collaborate on a reel showing our banana chips in a traditional Tamil recipe. Offering ₹3,500.",
+        "proposedAmount": 3500,
+        "createdAt": "2026-07-10T06:55:41.411Z"
+      },
+      {
+        "id": "msg_1_2",
+        "senderUid": "creator_priya_tn",
+        "message": "Hi IndiD2C, thank you! I'd love to work with you. Based on my engagement rates and Tamil target reach, my standard rate is ₹4,500. Let me know if that works!",
+        "proposedAmount": 4500,
+        "createdAt": "2026-07-10T07:55:41.411Z"
+      }
+    ],
+    "deal_sample_2": [
+      {
+        "id": "msg_2_1",
+        "senderUid": "brand_bharatpay",
+        "message": "Hello Ravi, we want to launch a Telugu campaign for our digital payment app. We're offering ₹15,000 for a humor skit highlighting ease of payments.",
+        "proposedAmount": 15000,
+        "createdAt": "2026-07-10T07:55:41.411Z"
+      }
+    ],
+    "deal_sample_3": [
+      {
+        "id": "msg_3_1",
+        "senderUid": "brand_sringara",
+        "message": "Hey Ananya, let's collab on the lip oil launch. Standard price ₹12,000.",
+        "proposedAmount": 12000,
+        "createdAt": "2026-07-10T05:55:41.411Z"
+      },
+      {
+        "id": "msg_3_2",
+        "senderUid": "creator_ananya_bengali",
+        "message": "That sounds awesome, let's do it! Excited to showcase this to my Bengali audience.",
+        "proposedAmount": null,
+        "createdAt": "2026-07-10T06:55:41.411Z"
+      },
+      {
+        "id": "msg_3_3",
+        "senderUid": "brand_sringara",
+        "message": "Great! Offer accepted. We will ship the products to your address tomorrow.",
+        "proposedAmount": null,
+        "createdAt": "2026-07-10T07:55:41.411Z"
+      }
+    ]
+  },
+  "pastCollaborations": {
+    "creator_priya_tn_collab_1": {
+      "id": "creator_priya_tn_collab_1",
+      "creatorUid": "creator_priya_tn",
+      "brandName": "LocalBrand Tamil",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_priya_tn_collab_2": {
+      "id": "creator_priya_tn_collab_2",
+      "creatorUid": "creator_priya_tn",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_ravi_telegu_collab_1": {
+      "id": "creator_ravi_telegu_collab_1",
+      "creatorUid": "creator_ravi_telegu",
+      "brandName": "LocalBrand Telugu",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_ravi_telegu_collab_2": {
+      "id": "creator_ravi_telegu_collab_2",
+      "creatorUid": "creator_ravi_telegu",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_ramesh_kannada_collab_1": {
+      "id": "creator_ramesh_kannada_collab_1",
+      "creatorUid": "creator_ramesh_kannada",
+      "brandName": "LocalBrand Kannada",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_ramesh_kannada_collab_2": {
+      "id": "creator_ramesh_kannada_collab_2",
+      "creatorUid": "creator_ramesh_kannada",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_ananya_bengali_collab_1": {
+      "id": "creator_ananya_bengali_collab_1",
+      "creatorUid": "creator_ananya_bengali",
+      "brandName": "LocalBrand Bengali",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_ananya_bengali_collab_2": {
+      "id": "creator_ananya_bengali_collab_2",
+      "creatorUid": "creator_ananya_bengali",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_swapnil_marathi_collab_1": {
+      "id": "creator_swapnil_marathi_collab_1",
+      "creatorUid": "creator_swapnil_marathi",
+      "brandName": "LocalBrand Marathi",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_swapnil_marathi_collab_2": {
+      "id": "creator_swapnil_marathi_collab_2",
+      "creatorUid": "creator_swapnil_marathi",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_manoj_bhojpuri_collab_1": {
+      "id": "creator_manoj_bhojpuri_collab_1",
+      "creatorUid": "creator_manoj_bhojpuri",
+      "brandName": "LocalBrand Bhojpuri",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_manoj_bhojpuri_collab_2": {
+      "id": "creator_manoj_bhojpuri_collab_2",
+      "creatorUid": "creator_manoj_bhojpuri",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_harpreet_punjabi_collab_1": {
+      "id": "creator_harpreet_punjabi_collab_1",
+      "creatorUid": "creator_harpreet_punjabi",
+      "brandName": "LocalBrand Punjabi",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_harpreet_punjabi_collab_2": {
+      "id": "creator_harpreet_punjabi_collab_2",
+      "creatorUid": "creator_harpreet_punjabi",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_juri_assamese_collab_1": {
+      "id": "creator_juri_assamese_collab_1",
+      "creatorUid": "creator_juri_assamese",
+      "brandName": "LocalBrand Assamese",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_juri_assamese_collab_2": {
+      "id": "creator_juri_assamese_collab_2",
+      "creatorUid": "creator_juri_assamese",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_sandeep_telangana_collab_1": {
+      "id": "creator_sandeep_telangana_collab_1",
+      "creatorUid": "creator_sandeep_telangana",
+      "brandName": "LocalBrand Telugu",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_sandeep_telangana_collab_2": {
+      "id": "creator_sandeep_telangana_collab_2",
+      "creatorUid": "creator_sandeep_telangana",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_deepa_tamil_collab_1": {
+      "id": "creator_deepa_tamil_collab_1",
+      "creatorUid": "creator_deepa_tamil",
+      "brandName": "LocalBrand Tamil",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_deepa_tamil_collab_2": {
+      "id": "creator_deepa_tamil_collab_2",
+      "creatorUid": "creator_deepa_tamil",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_rohit_marathi_collab_1": {
+      "id": "creator_rohit_marathi_collab_1",
+      "creatorUid": "creator_rohit_marathi",
+      "brandName": "LocalBrand Marathi",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_rohit_marathi_collab_2": {
+      "id": "creator_rohit_marathi_collab_2",
+      "creatorUid": "creator_rohit_marathi",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_subhasish_bengali_collab_1": {
+      "id": "creator_subhasish_bengali_collab_1",
+      "creatorUid": "creator_subhasish_bengali",
+      "brandName": "LocalBrand Bengali",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_subhasish_bengali_collab_2": {
+      "id": "creator_subhasish_bengali_collab_2",
+      "creatorUid": "creator_subhasish_bengali",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_amrita_punjabi_collab_1": {
+      "id": "creator_amrita_punjabi_collab_1",
+      "creatorUid": "creator_amrita_punjabi",
+      "brandName": "LocalBrand Punjabi",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_amrita_punjabi_collab_2": {
+      "id": "creator_amrita_punjabi_collab_2",
+      "creatorUid": "creator_amrita_punjabi",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_kedar_kannada_collab_1": {
+      "id": "creator_kedar_kannada_collab_1",
+      "creatorUid": "creator_kedar_kannada",
+      "brandName": "LocalBrand Kannada",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_kedar_kannada_collab_2": {
+      "id": "creator_kedar_kannada_collab_2",
+      "creatorUid": "creator_kedar_kannada",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    },
+    "creator_pinky_bhojpuri_collab_1": {
+      "id": "creator_pinky_bhojpuri_collab_1",
+      "creatorUid": "creator_pinky_bhojpuri",
+      "brandName": "LocalBrand Bhojpuri",
+      "outcome": "Delivered 1 regional video with 15% engagement rate",
+      "date": "2026-03-12"
+    },
+    "creator_pinky_bhojpuri_collab_2": {
+      "id": "creator_pinky_bhojpuri_collab_2",
+      "creatorUid": "creator_pinky_bhojpuri",
+      "brandName": "ChaiCo",
+      "outcome": "Delivered 2 Instagram reels with total 50K views",
+      "date": "2026-04-20"
+    }
+  },
+  "mockEngagementData": {
+    "creator_priya_tn": {
+      "creatorUid": "creator_priya_tn",
+      "engagementRate": 0.08,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.85,
+      "repeatCommenterRatio": 0.45,
+      "stateAudienceRatio": 0.78,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 10200
+        },
+        {
+          "month": "Feb",
+          "followers": 10800
+        },
+        {
+          "month": "Mar",
+          "followers": 11160
+        },
+        {
+          "month": "Apr",
+          "followers": 11640
+        },
+        {
+          "month": "May",
+          "followers": 12000
+        }
+      ]
+    },
+    "creator_ravi_telegu": {
+      "creatorUid": "creator_ravi_telegu",
+      "engagementRate": 0.06,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.8,
+      "repeatCommenterRatio": 0.38,
+      "stateAudienceRatio": 0.7,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 38250
+        },
+        {
+          "month": "Feb",
+          "followers": 40500
+        },
+        {
+          "month": "Mar",
+          "followers": 41850
+        },
+        {
+          "month": "Apr",
+          "followers": 43650
+        },
+        {
+          "month": "May",
+          "followers": 45000
+        }
+      ]
+    },
+    "creator_ramesh_kannada": {
+      "creatorUid": "creator_ramesh_kannada",
+      "engagementRate": 0.045,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.72,
+      "repeatCommenterRatio": 0.48,
+      "stateAudienceRatio": 0.82,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 23800
+        },
+        {
+          "month": "Feb",
+          "followers": 25200
+        },
+        {
+          "month": "Mar",
+          "followers": 26040
+        },
+        {
+          "month": "Apr",
+          "followers": 27160
+        },
+        {
+          "month": "May",
+          "followers": 28000
+        }
+      ]
+    },
+    "creator_ananya_bengali": {
+      "creatorUid": "creator_ananya_bengali",
+      "engagementRate": 0.075,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.88,
+      "repeatCommenterRatio": 0.4,
+      "stateAudienceRatio": 0.75,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 54400
+        },
+        {
+          "month": "Feb",
+          "followers": 57600
+        },
+        {
+          "month": "Mar",
+          "followers": 59520
+        },
+        {
+          "month": "Apr",
+          "followers": 62080
+        },
+        {
+          "month": "May",
+          "followers": 64000
+        }
+      ]
+    },
+    "creator_swapnil_marathi": {
+      "creatorUid": "creator_swapnil_marathi",
+      "engagementRate": 0.09,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.92,
+      "repeatCommenterRatio": 0.55,
+      "stateAudienceRatio": 0.9,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 7225
+        },
+        {
+          "month": "Feb",
+          "followers": 7650
+        },
+        {
+          "month": "Mar",
+          "followers": 7905
+        },
+        {
+          "month": "Apr",
+          "followers": 8245
+        },
+        {
+          "month": "May",
+          "followers": 8500
+        }
+      ]
+    },
+    "creator_manoj_bhojpuri": {
+      "creatorUid": "creator_manoj_bhojpuri",
+      "engagementRate": 0.03,
+      "growthAnomaly": true,
+      "commentLanguageMatchRatio": 0.55,
+      "repeatCommenterRatio": 0.2,
+      "stateAudienceRatio": 0.48,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 63750
+        },
+        {
+          "month": "Feb",
+          "followers": 67500
+        },
+        {
+          "month": "Mar",
+          "followers": 69750
+        },
+        {
+          "month": "Apr",
+          "followers": 72750
+        },
+        {
+          "month": "May",
+          "followers": 75000
+        }
+      ]
+    },
+    "creator_harpreet_punjabi": {
+      "creatorUid": "creator_harpreet_punjabi",
+      "engagementRate": 0.082,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.82,
+      "repeatCommenterRatio": 0.44,
+      "stateAudienceRatio": 0.72,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 27200
+        },
+        {
+          "month": "Feb",
+          "followers": 28800
+        },
+        {
+          "month": "Mar",
+          "followers": 29760
+        },
+        {
+          "month": "Apr",
+          "followers": 31040
+        },
+        {
+          "month": "May",
+          "followers": 32000
+        }
+      ]
+    },
+    "creator_juri_assamese": {
+      "creatorUid": "creator_juri_assamese",
+      "engagementRate": 0.07,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.78,
+      "repeatCommenterRatio": 0.42,
+      "stateAudienceRatio": 0.81,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 12750
+        },
+        {
+          "month": "Feb",
+          "followers": 13500
+        },
+        {
+          "month": "Mar",
+          "followers": 13950
+        },
+        {
+          "month": "Apr",
+          "followers": 14550
+        },
+        {
+          "month": "May",
+          "followers": 15000
+        }
+      ]
+    },
+    "creator_sandeep_telangana": {
+      "creatorUid": "creator_sandeep_telangana",
+      "engagementRate": 0.068,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.75,
+      "repeatCommenterRatio": 0.36,
+      "stateAudienceRatio": 0.65,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 42500
+        },
+        {
+          "month": "Feb",
+          "followers": 45000
+        },
+        {
+          "month": "Mar",
+          "followers": 46500
+        },
+        {
+          "month": "Apr",
+          "followers": 48500
+        },
+        {
+          "month": "May",
+          "followers": 50000
+        }
+      ]
+    },
+    "creator_deepa_tamil": {
+      "creatorUid": "creator_deepa_tamil",
+      "engagementRate": 0.11,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.94,
+      "repeatCommenterRatio": 0.6,
+      "stateAudienceRatio": 0.88,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 5270
+        },
+        {
+          "month": "Feb",
+          "followers": 5580
+        },
+        {
+          "month": "Mar",
+          "followers": 5766
+        },
+        {
+          "month": "Apr",
+          "followers": 6014
+        },
+        {
+          "month": "May",
+          "followers": 6200
+        }
+      ]
+    },
+    "creator_rohit_marathi": {
+      "creatorUid": "creator_rohit_marathi",
+      "engagementRate": 0.058,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.74,
+      "repeatCommenterRatio": 0.35,
+      "stateAudienceRatio": 0.78,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 16150
+        },
+        {
+          "month": "Feb",
+          "followers": 17100
+        },
+        {
+          "month": "Mar",
+          "followers": 17670
+        },
+        {
+          "month": "Apr",
+          "followers": 18430
+        },
+        {
+          "month": "May",
+          "followers": 19000
+        }
+      ]
+    },
+    "creator_subhasish_bengali": {
+      "creatorUid": "creator_subhasish_bengali",
+      "engagementRate": 0.02,
+      "growthAnomaly": true,
+      "commentLanguageMatchRatio": 0.4,
+      "repeatCommenterRatio": 0.15,
+      "stateAudienceRatio": 0.3,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 2975
+        },
+        {
+          "month": "Feb",
+          "followers": 3150
+        },
+        {
+          "month": "Mar",
+          "followers": 3255
+        },
+        {
+          "month": "Apr",
+          "followers": 3395
+        },
+        {
+          "month": "May",
+          "followers": 3500
+        }
+      ]
+    },
+    "creator_amrita_punjabi": {
+      "creatorUid": "creator_amrita_punjabi",
+      "engagementRate": 0.072,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.84,
+      "repeatCommenterRatio": 0.42,
+      "stateAudienceRatio": 0.76,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 44200
+        },
+        {
+          "month": "Feb",
+          "followers": 46800
+        },
+        {
+          "month": "Mar",
+          "followers": 48360
+        },
+        {
+          "month": "Apr",
+          "followers": 50440
+        },
+        {
+          "month": "May",
+          "followers": 52000
+        }
+      ]
+    },
+    "creator_kedar_kannada": {
+      "creatorUid": "creator_kedar_kannada",
+      "engagementRate": 0.084,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.81,
+      "repeatCommenterRatio": 0.46,
+      "stateAudienceRatio": 0.8,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 18700
+        },
+        {
+          "month": "Feb",
+          "followers": 19800
+        },
+        {
+          "month": "Mar",
+          "followers": 20460
+        },
+        {
+          "month": "Apr",
+          "followers": 21340
+        },
+        {
+          "month": "May",
+          "followers": 22000
+        }
+      ]
+    },
+    "creator_pinky_bhojpuri": {
+      "creatorUid": "creator_pinky_bhojpuri",
+      "engagementRate": 0.095,
+      "growthAnomaly": false,
+      "commentLanguageMatchRatio": 0.9,
+      "repeatCommenterRatio": 0.5,
+      "stateAudienceRatio": 0.86,
+      "followerGrowthHistory": [
+        {
+          "month": "Jan",
+          "followers": 15725
+        },
+        {
+          "month": "Feb",
+          "followers": 16650
+        },
+        {
+          "month": "Mar",
+          "followers": 17205
+        },
+        {
+          "month": "Apr",
+          "followers": 17945
+        },
+        {
+          "month": "May",
+          "followers": 18500
+        }
+      ]
+    }
+  }
+}
