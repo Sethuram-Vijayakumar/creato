@@ -109,8 +109,7 @@ export default function BrandDashboard() {
       <header className="border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-gradient-to-tr from-luxury-blue-500 to-luxury-purple-500 flex items-center justify-center text-white font-bold text-lg">C</span>
-            <span className="font-bold text-xl tracking-tight text-slate-800">{t("appName")}</span>
+            <img src="/logo.png" alt="Creato Logo" className="h-8 object-contain" />
           </Link>
           
           <div className="flex items-center gap-6">
@@ -120,6 +119,9 @@ export default function BrandDashboard() {
             </Link>
             <Link href="/brand/discover" className="text-xs font-semibold text-slate-655 hover:text-slate-900 transition-colors">
               {t("discover")}
+            </Link>
+            <Link href="/brand/briefs/new" className="text-xs font-semibold text-slate-655 hover:text-slate-900 transition-colors">
+              Post Brief
             </Link>
             <button 
               onClick={handleLogout}

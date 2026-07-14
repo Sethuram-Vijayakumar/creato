@@ -14,8 +14,7 @@ export default function Home() {
       <header className="border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-gradient-to-tr from-luxury-blue-500 to-luxury-purple-500 flex items-center justify-center text-white font-bold text-lg shadow-sm">C</span>
-            <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-luxury-blue-900 to-luxury-purple-600 bg-clip-text text-transparent">{t("appName")}</span>
+            <img src="/logo.png" alt="Creato Logo" className="h-8 object-contain" />
           </Link>
           
           <div className="flex items-center gap-4">
@@ -72,7 +71,7 @@ export default function Home() {
               </ul>
             </div>
             <Link 
-              href="/creator/signup" 
+              href="/creator/login" 
               className="w-full py-3 px-4 rounded-lg bg-luxury-blue-900 text-white text-xs font-semibold hover:bg-luxury-blue-900/90 transition-all flex items-center justify-center gap-2 group-hover:translate-y-[-2px] shadow-sm"
             >
               <span>{t("imCreator")}</span>
@@ -107,7 +106,7 @@ export default function Home() {
               </ul>
             </div>
             <Link 
-              href="/brand/signup" 
+              href="/brand/login" 
               className="w-full py-3 px-4 rounded-lg bg-luxury-purple-500 text-white text-xs font-semibold hover:bg-luxury-purple-600 transition-all flex items-center justify-center gap-2 group-hover:translate-y-[-2px] shadow-sm"
             >
               <span>{t("imBrand")}</span>

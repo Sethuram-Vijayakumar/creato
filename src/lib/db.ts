@@ -54,6 +54,7 @@ export interface DatabaseSchema {
     status: "OFFER_SENT" | "COUNTERED" | "ACCEPTED" | "IN_PRODUCTION" | "DELIVERED" | "DECLINED";
     createdAt: string;
     updatedAt: string;
+    initiatedBy?: "BRAND" | "CREATOR";
   }>;
   dealMessages: Record<string, Array<{
     id: string;
@@ -77,6 +78,20 @@ export interface DatabaseSchema {
     repeatCommenterRatio: number;
     stateAudienceRatio: number;
     followerGrowthHistory: Array<{ month: string; followers: number }>;
+  }>;
+  brandBriefs: Record<string, {
+    id: string;
+    brandUid: string;
+    title: string;
+    description: string;
+    niche: string;
+    targetLanguages: string[];
+    targetStates: string[];
+    budgetMin: number;
+    budgetMax: number;
+    deliverableType: string;
+    status: "OPEN" | "CLOSED";
+    createdAt: string;
   }>;
 }
 
@@ -106,7 +121,8 @@ async function ensureTable() {
         deals: {},
         dealMessages: {},
         pastCollaborations: {},
-        mockEngagementData: {}
+        mockEngagementData: {},
+        brandBriefs: {}
       };
       await sql`
         INSERT INTO creato_db (id, data)
@@ -135,7 +151,8 @@ export async function readDb(): Promise<DatabaseSchema> {
           deals: data.deals || {},
           dealMessages: data.dealMessages || {},
           pastCollaborations: data.pastCollaborations || {},
-          mockEngagementData: data.mockEngagementData || {}
+          mockEngagementData: data.mockEngagementData || {},
+          brandBriefs: data.brandBriefs || {}
         };
       }
     } catch (e) {
@@ -153,7 +170,8 @@ export async function readDb(): Promise<DatabaseSchema> {
       deals: {},
       dealMessages: {},
       pastCollaborations: {},
-      mockEngagementData: {}
+      mockEngagementData: {},
+      brandBriefs: {}
     };
     fs.writeFileSync(DB_PATH, JSON.stringify(emptyDb, null, 2), "utf8");
     return emptyDb;
@@ -171,7 +189,8 @@ export async function readDb(): Promise<DatabaseSchema> {
       deals: {},
       dealMessages: {},
       pastCollaborations: {},
-      mockEngagementData: {}
+      mockEngagementData: {},
+      brandBriefs: {}
     };
     fs.writeFileSync(DB_PATH, JSON.stringify(emptyDb, null, 2), "utf8");
     return emptyDb;

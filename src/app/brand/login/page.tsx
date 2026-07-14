@@ -41,8 +41,7 @@ export default function BrandLogin() {
     <div className="flex-1 flex flex-col justify-center py-12 px-6 lg:px-8 bg-slate-50 min-h-screen">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Link href="/" className="flex items-center gap-2 justify-center mb-6">
-          <span className="w-8 h-8 rounded-lg bg-gradient-to-tr from-luxury-blue-500 to-luxury-purple-500 flex items-center justify-center text-white font-bold text-lg">C</span>
-          <span className="font-bold text-xl tracking-tight text-slate-800">Creato</span>
+          <img src="/logo.png" alt="Creato Logo" className="h-8 object-contain" />
         </Link>
         <h2 className="text-center text-3xl font-bold tracking-tight text-slate-900">
           Sign in as Brand

@@ -440,6 +440,7 @@ async function seed() {
   db.dealMessages = {};
   db.pastCollaborations = {};
   db.mockEngagementData = {};
+  db.brandBriefs = {};
 
   // Seed Creators
   console.log("Seeding creators...");
@@ -611,6 +612,141 @@ async function seed() {
         }
       ];
     }
+  }
+
+  // Seed Brand Briefs
+  console.log("Seeding brand briefs...");
+  const briefs = [
+    {
+      id: "brief_sringara_1",
+      brandUid: "brand_sringara",
+      title: "Matte Lipstick Summer Launch",
+      description: "We are looking for Bengali or Hindi beauty creators to create engaging Reels showcasing our new cruelty-free matte lipsticks. Focus on textures, colors, and durability.",
+      niche: "Beauty",
+      targetLanguages: ["Bengali", "Hindi"],
+      targetStates: ["West Bengal", "Delhi"],
+      budgetMin: 12000,
+      budgetMax: 18000,
+      deliverableType: "Instagram Reel",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_bharatpay_1",
+      brandUid: "brand_bharatpay",
+      title: "BharatPay QR Scanner Humor Campaign",
+      description: "Looking for comedy creators in Andhra Pradesh or Karnataka to do relatable middle-class household comedy skits showing how easy it is to use our new contactless scanner.",
+      niche: "Comedy",
+      targetLanguages: ["Telugu", "Kannada"],
+      targetStates: ["Andhra Pradesh", "Karnataka"],
+      budgetMin: 25000,
+      budgetMax: 35000,
+      deliverableType: "YouTube Video",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_mithaiwala_1",
+      brandUid: "brand_mithaiwala",
+      title: "Diwali Sweet Gifting Extravaganza",
+      description: "Looking for regional food creators to do unboxing, recipe styling, and tasting videos for our premium pure ghee dry fruit sweets collections.",
+      niche: "Food",
+      targetLanguages: ["Hindi", "Punjabi"],
+      targetStates: ["Delhi", "Punjab", "Rajasthan"],
+      budgetMin: 15500,
+      budgetMax: 22000,
+      deliverableType: "Instagram Post",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_gyanedu_1",
+      brandUid: "brand_gyanedu",
+      title: "Regional Learning App Promotion",
+      description: "Promote GyanEdu K-12 learning apps in South Indian languages. Ideal for parent/family creators or educational niche influencers.",
+      niche: "Education",
+      targetLanguages: ["Tamil", "Kannada", "Malayalam"],
+      targetStates: ["Tamil Nadu", "Karnataka", "Kerala"],
+      budgetMin: 10000,
+      budgetMax: 15000,
+      deliverableType: "YouTube Video",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_swadeshi_1",
+      brandUid: "brand_swadeshi",
+      title: "Handloom Saree Festive Collection",
+      description: "Highlight our sustainably sourced silk weaves and festive handloom saree collections. Creators must speak Tamil or Malayalam and present high aesthetic styling guides.",
+      niche: "Beauty",
+      targetLanguages: ["Tamil", "Malayalam"],
+      targetStates: ["Tamil Nadu", "Kerala"],
+      budgetMin: 8000,
+      budgetMax: 12000,
+      deliverableType: "Instagram Reel",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_indid2c_1",
+      brandUid: "brand_indid2c",
+      title: "Finance & Tax Planning Education",
+      description: "Help simplify personal tax planning, GST filings, and investments for young salary earners. Looking for finance creators in Delhi/NCR.",
+      niche: "Finance",
+      targetLanguages: ["Hindi", "English"],
+      targetStates: ["Delhi"],
+      budgetMin: 30000,
+      budgetMax: 45000,
+      deliverableType: "YouTube Video",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_sringara_2",
+      brandUid: "brand_sringara",
+      title: "Organic Cleanser Launch Review",
+      description: "Looking for skin care reviews for our new organic cleanser. Needs to focus on daily morning routines. Looking for Tamil or Hindi creators.",
+      niche: "Beauty",
+      targetLanguages: ["Tamil", "Hindi"],
+      targetStates: ["Tamil Nadu", "Delhi"],
+      budgetMin: 10000,
+      budgetMax: 16000,
+      deliverableType: "Instagram Reel",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_mithaiwala_2",
+      brandUid: "brand_mithaiwala",
+      title: "Traditional Sweets Mukbang / Tasting",
+      description: "Perform a traditional sweets tasting challenge or unboxing. Creators in Karnataka or Andhra preferred.",
+      niche: "Food",
+      targetLanguages: ["Kannada", "Telugu"],
+      targetStates: ["Karnataka", "Andhra Pradesh"],
+      budgetMin: 7000,
+      budgetMax: 11000,
+      deliverableType: "Instagram Post",
+      status: "OPEN" as const,
+      createdAt: now
+    },
+    {
+      id: "brief_gyanedu_2",
+      brandUid: "brand_gyanedu",
+      title: "Regional Coding Bootcamps Review",
+      description: "Promote our local language coding bootcamp courses for children. Hindi language speakers in Delhi preferred.",
+      niche: "Education",
+      targetLanguages: ["Hindi"],
+      targetStates: ["Delhi"],
+      budgetMin: 20000,
+      budgetMax: 28000,
+      deliverableType: "YouTube Video",
+      status: "OPEN" as const,
+      createdAt: now
+    }
+  ];
+
+  for (const b of briefs) {
+    db.brandBriefs[b.id] = b;
   }
 
   await writeDb(db);
