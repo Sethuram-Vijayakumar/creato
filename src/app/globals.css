@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  --background: #fafafa;
+  --foreground: #09090b;
 }
 
 @theme {
@@ -11,94 +11,172 @@
   
   --color-luxury-blue-50: #f0f7ff;
   --color-luxury-blue-100: #e0effe;
-  --color-luxury-blue-500: #1e40af;
-  --color-luxury-blue-600: #1d4ed8;
-  --color-luxury-blue-900: #0f2537;
+  --color-luxury-blue-500: #3b82f6;
+  --color-luxury-blue-600: #2563eb;
+  --color-luxury-blue-900: #0f172a;
   
   --color-luxury-purple-50: #faf5ff;
   --color-luxury-purple-100: #f3e8ff;
-  --color-luxury-purple-500: #7c3aec;
-  --color-luxury-purple-600: #6d28d9;
+  --color-luxury-purple-500: #8b5cf6;
+  --color-luxury-purple-600: #7c3aec;
   
-  --color-success: #2e9e5b;
-  --color-warning: #d98e2e;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
 }
 
 body {
-  /* Rich, minimal, colourful mesh gradient background */
+  /* Ultra-modern, futuristic, minimal mesh gradient background */
   background: 
-    radial-gradient(at 0% 0%, rgba(224, 242, 254, 0.5) 0px, transparent 50%), 
-    radial-gradient(at 100% 0%, rgba(243, 232, 255, 0.5) 0px, transparent 50%), 
-    radial-gradient(at 100% 100%, rgba(252, 228, 236, 0.4) 0px, transparent 50%), 
-    radial-gradient(at 0% 100%, rgba(204, 251, 241, 0.4) 0px, transparent 50%), 
-    #f8fafc;
+    radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.12) 0px, transparent 45%), 
+    radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.15) 0px, transparent 40%), 
+    radial-gradient(at 50% 50%, rgba(236, 72, 153, 0.06) 0px, transparent 50%), 
+    radial-gradient(at 100% 100%, rgba(20, 184, 166, 0.08) 0px, transparent 45%), 
+    radial-gradient(at 0% 100%, rgba(99, 102, 241, 0.1) 0px, transparent 40%), 
+    #fafafa;
   background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-inter), sans-serif;
   min-height: 100vh;
+  letter-spacing: -0.01em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins), sans-serif;
+  letter-spacing: -0.03em;
 }
 
-/* Glassmorphism utility card class */
+/* Futuristic Glassmorphism Card with glowing border */
 .luxury-card {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 10px 30px -10px rgba(15, 37, 55, 0.05);
-  border-radius: 16px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(228, 228, 231, 0.6);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.luxury-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.3), rgba(139, 92, 246, 0.3), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 .luxury-card:hover {
+  transform: translateY(-4px);
   background: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 20px 40px -15px rgba(15, 37, 55, 0.08);
+  border-color: rgba(139, 92, 246, 0.25);
+  box-shadow: 0 20px 40px rgba(139, 92, 246, 0.06), 0 1px 3px rgba(0, 0, 0, 0.01);
 }
 
+.luxury-card:hover::before {
+  opacity: 1;
+}
+
+/* Futuristic Purple Card variant */
 .luxury-card-purple {
-  background: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 10px 30px -10px rgba(124, 58, 237, 0.05);
-  border-radius: 16px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(228, 228, 231, 0.6);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+  border-radius: 20px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.luxury-card-purple::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), rgba(236, 72, 153, 0.4), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 .luxury-card-purple:hover {
+  transform: translateY(-4px);
   background: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 20px 40px -15px rgba(124, 58, 237, 0.08);
+  border-color: rgba(236, 72, 153, 0.25);
+  box-shadow: 0 20px 40px rgba(236, 72, 153, 0.06), 0 1px 3px rgba(0, 0, 0, 0.01);
 }
 
-/* Custom premium elements */
+.luxury-card-purple:hover::before {
+  opacity: 1;
+}
+
+/* Modern Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.45);
+}
+
+/* Glassmorphism Inputs with subtle glowing outline */
 input, select, textarea {
-  background: rgba(255, 255, 255, 0.5) !important;
-  backdrop-filter: blur(4px);
-  border: 1px solid rgba(226, 232, 240, 0.8) !important;
-  transition: all 0.2s ease-in-out;
+  background: rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(228, 228, 230, 0.8) !important;
+  border-radius: 10px !important;
+  padding: 10px 14px !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 input:focus, select:focus, textarea:focus {
-  background: rgba(255, 255, 255, 0.9) !important;
-  border-color: rgba(124, 58, 237, 0.5) !important;
-  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(139, 92, 246, 0.4) !important;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.08) !important;
+  outline: none !important;
 }
 
-/* Custom animations */
-@keyframes pulseRing {
-  0% { transform: scale(0.95); opacity: 1; }
-  50% { opacity: 0.5; }
-  100% { transform: scale(1.05); opacity: 0; }
+/* Custom premium badge */
+.glow-badge {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(236, 72, 153, 0.08));
+  border: 1px solid rgba(139, 92, 246, 0.15);
+  color: #7c3aec;
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.05);
 }
 
-.pulse-ring {
-  animation: pulseRing 2s infinite ease-out;
+/* Futuristic animated CTA button */
+.gradient-btn {
+  background: linear-gradient(135deg, #4f46e5, #7c3aec, #db2777);
+  background-size: 200% auto;
+  color: white;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.2);
+}
+
+.gradient-btn:hover {
+  background-position: right center;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(124, 58, 237, 0.35);
 }
 
 /* Gradient text shorthand helper */
 .gradient-text {
-  background: linear-gradient(135deg, #1e40af, #7c3aec, #db2777);
+  background: linear-gradient(135deg, #2563eb, #7c3aec, #db2777);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -28,12 +28,12 @@ export default function Home() {
       {/* Hero Section */}
       <main className="flex-1 max-w-7xl mx-auto px-6 py-12 md:py-20 flex flex-col gap-16">
         <div className="text-center max-w-3xl mx-auto flex flex-col gap-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-luxury-purple-50 text-luxury-purple-600 text-xs font-semibold self-center shadow-xs border border-purple-100/50">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glow-badge text-xs font-semibold self-center">
             <Sparkles className="w-3.5 h-3.5" />
             <span>Celebrating regional Indian content creators</span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent pb-1">
             {t("heroSlogan")}
           </h1>
           
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <Link 
               href="/creator/login" 
-              className="w-full py-3 px-4 rounded-lg bg-luxury-blue-900 text-white text-xs font-semibold hover:bg-luxury-blue-900/90 transition-all flex items-center justify-center gap-2 group-hover:translate-y-[-2px] shadow-sm"
+              className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-semibold transition-all flex items-center justify-center gap-2 group-hover:-translate-y-1 shadow-md shadow-blue-500/10 hover:shadow-lg hover:shadow-blue-500/20"
             >
               <span>{t("imCreator")}</span>
               <ArrowRight className="w-4 h-4" />
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
             <Link 
               href="/brand/login" 
-              className="w-full py-3 px-4 rounded-lg bg-luxury-purple-500 text-white text-xs font-semibold hover:bg-luxury-purple-600 transition-all flex items-center justify-center gap-2 group-hover:translate-y-[-2px] shadow-sm"
+              className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-xs font-semibold transition-all flex items-center justify-center gap-2 group-hover:-translate-y-1 shadow-md shadow-purple-500/10 hover:shadow-lg hover:shadow-purple-500/20"
             >
               <span>{t("imBrand")}</span>
               <ArrowRight className="w-4 h-4" />
