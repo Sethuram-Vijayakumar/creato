@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Poppins, Inter } from "next/font/google";
+import { Outfit, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 };
 
 import { LanguageProvider } from "@/components/LanguageProvider";
+import AestheticParticles from "@/components/AestheticParticles";
 
 export default function RootLayout({
   children,
@@ -29,11 +30,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.variable} ${inter.variable} h-full antialiased`}
+      className={`${outfit.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col text-slate-900 font-sans">
+      <body className="min-h-full flex flex-col text-slate-900 font-sans relative">
         <LanguageProvider>
-          {children}
+          <AestheticParticles />
+          <div className="relative z-10 flex-1 flex flex-col min-h-screen">
+            {children}
+          </div>
         </LanguageProvider>
       </body>
     </html>
