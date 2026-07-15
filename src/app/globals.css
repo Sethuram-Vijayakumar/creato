@@ -25,9 +25,17 @@
 }
 
 body {
-  background-color: var(--background);
+  /* Rich, minimal, colourful mesh gradient background */
+  background: 
+    radial-gradient(at 0% 0%, rgba(224, 242, 254, 0.5) 0px, transparent 50%), 
+    radial-gradient(at 100% 0%, rgba(243, 232, 255, 0.5) 0px, transparent 50%), 
+    radial-gradient(at 100% 100%, rgba(252, 228, 236, 0.4) 0px, transparent 50%), 
+    radial-gradient(at 0% 100%, rgba(204, 251, 241, 0.4) 0px, transparent 50%), 
+    #f8fafc;
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-inter), sans-serif;
+  min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,22 +44,48 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Glassmorphism utility card class */
 .luxury-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 30px -10px rgba(15, 37, 55, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.luxury-card:hover {
   background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(226, 232, 240, 0.8);
-  box-shadow: 0 4px 20px -2px rgba(15, 37, 55, 0.05);
-  border-radius: 12px;
+  box-shadow: 0 20px 40px -15px rgba(15, 37, 55, 0.08);
 }
 
 .luxury-card-purple {
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(243, 232, 255, 0.8);
-  box-shadow: 0 4px 20px -2px rgba(124, 58, 237, 0.05);
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 30px -10px rgba(124, 58, 237, 0.05);
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Custom anims */
+.luxury-card-purple:hover {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 20px 40px -15px rgba(124, 58, 237, 0.08);
+}
+
+/* Custom premium elements */
+input, select, textarea {
+  background: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-color: rgba(124, 58, 237, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15) !important;
+}
+
+/* Custom animations */
 @keyframes pulseRing {
   0% { transform: scale(0.95); opacity: 1; }
   50% { opacity: 0.5; }
@@ -60,4 +94,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .pulse-ring {
   animation: pulseRing 2s infinite ease-out;
+}
+
+/* Gradient text shorthand helper */
+.gradient-text {
+  background: linear-gradient(135deg, #1e40af, #7c3aec, #db2777);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
