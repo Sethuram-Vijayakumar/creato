@@ -184,7 +184,7 @@ export default function RateCalculator() {
                   <TrendingUp className="w-5 h-5 text-luxury-purple-500 shrink-0 mt-0.5" />
                   <div>
                     <p className="font-bold text-slate-800">ATI Multiplier ({atiMultiplier.toFixed(2)}x)</p>
-                    <p className="text-[11px] text-slate-500">Based on a simulated Vishwas score of {customATI}. Highly trusted regional creators multiply campaign conversion values.</p>
+                    <p className="text-[11px] text-slate-500">Based on a simulated Creato Score of {customATI}. Highly trusted regional creators multiply campaign conversion values.</p>
                   </div>
                 </div>
 

@@ -371,7 +371,7 @@ export default function CreatorOnboarding() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold tracking-tight text-slate-900">Your Vishwas Score Card</h2>
+                <h2 className="text-2xl font-bold tracking-tight text-slate-900">Your Creato Score Card</h2>
                 <p className="text-xs text-slate-500 mt-2">
                   Our algorithm has scanned your audience signals and generated your initial trust metrics.
                 </p>

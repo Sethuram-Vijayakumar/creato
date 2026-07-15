@@ -152,7 +152,7 @@ I would love to apply for your "${brief.title}" opportunity!
 I am a ${userNiche} creator based in ${creator.city}, ${creator.state}, and I connect with my audience in ${primaryLang}. 
 
 Here is why I'm a perfect fit for this campaign:
-- **Vishwas Score (ATI)**: My overall trust score is verified at **${scoreVal}/100**, indicating authentic engagement and deep local relevance.
+- **Creato Score**: My overall trust score is verified at **${scoreVal}/100**, indicating authentic engagement and deep local relevance.
 - **Geographic alignment**: My audience has strong local penetration matching your regional targets.
 - **Deliverables**: I can deliver high-quality ${brief.deliverableType} content within your budget range.
 
