@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="en"
       className={`${poppins.variable} ${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-slate-50 text-slate-900 font-sans">
+      <body className="min-h-full flex flex-col text-slate-900 font-sans">
         <LanguageProvider>
           {children}
         </LanguageProvider>

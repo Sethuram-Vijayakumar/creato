@@ -9,7 +9,7 @@ export default function Home() {
   const { t } = useLanguage();
 
   return (
-    <div className="flex-1 flex flex-col min-h-screen bg-slate-50">
+    <div className="flex-1 flex flex-col min-h-screen">
       {/* Header */}
       <header className="border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -45,7 +45,7 @@ export default function Home() {
         {/* Two-Sided CTA Section */}
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto w-full">
           {/* Creator side */}
-          <div className="luxury-card p-8 flex flex-col justify-between hover:shadow-xl hover:border-luxury-blue-100 transition-all group duration-300 relative overflow-hidden bg-white">
+          <div className="luxury-card p-8 flex flex-col justify-between hover:shadow-xl hover:border-luxury-blue-100 transition-all group duration-300 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-luxury-blue-50/40 rounded-full blur-xl group-hover:scale-150 transition-all" />
             <div>
               <div className="w-12 h-12 rounded-xl bg-luxury-blue-50 flex items-center justify-center text-luxury-blue-500 mb-6 group-hover:bg-luxury-blue-500 group-hover:text-white transition-colors">
@@ -80,7 +80,7 @@ export default function Home() {
           </div>
 
           {/* Brand side */}
-          <div className="luxury-card p-8 flex flex-col justify-between hover:shadow-xl hover:border-luxury-purple-100 transition-all group duration-300 relative overflow-hidden bg-white">
+          <div className="luxury-card p-8 flex flex-col justify-between hover:shadow-xl hover:border-luxury-purple-100 transition-all group duration-300 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-luxury-purple-50/40 rounded-full blur-xl group-hover:scale-150 transition-all" />
             <div>
               <div className="w-12 h-12 rounded-xl bg-luxury-purple-50 flex items-center justify-center text-luxury-purple-500 mb-6 group-hover:bg-luxury-purple-500 group-hover:text-white transition-colors">
@@ -116,7 +116,7 @@ export default function Home() {
         </div>
 
         {/* Explain the ATI Concept */}
-        <section className="bg-white rounded-2xl border border-slate-100 p-8 md:p-12 shadow-sm max-w-4xl mx-auto w-full">
+        <section className="luxury-card p-8 md:p-12 max-w-4xl mx-auto w-full">
           <h2 className="text-xl font-bold text-slate-800 mb-6 text-center">{t("atiTitle")}</h2>
           
           <div className="grid md:grid-cols-4 gap-6 text-center">

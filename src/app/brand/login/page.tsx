@@ -38,7 +38,7 @@ export default function BrandLogin() {
   };
 
   return (
-    <div className="flex-1 flex flex-col justify-center py-12 px-6 lg:px-8 bg-slate-50 min-h-screen">
+    <div className="flex-1 flex flex-col justify-center py-12 px-6 lg:px-8 min-h-screen">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Link href="/" className="flex items-center gap-2 justify-center mb-6">
           <img src="/logo.png" alt="Creato Logo" className="h-20 object-contain mix-blend-multiply" />
