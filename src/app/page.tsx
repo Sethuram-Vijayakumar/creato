@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="flex-1 flex flex-col min-h-screen">
       {/* Header */}
-      <header className="border-b border-slate-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+      <header className="border-b border-slate-200/40 bg-white/40 backdrop-blur-xl sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <img src="/logo.png" alt="Creato Logo" className="h-16 object-contain mix-blend-multiply" />
@@ -28,8 +28,9 @@ export default function Home() {
       {/* Hero Section */}
       <main className="flex-1 max-w-7xl mx-auto px-6 py-12 md:py-20 flex flex-col gap-16">
         <div className="text-center max-w-3xl mx-auto flex flex-col gap-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glow-badge text-xs font-semibold self-center">
-            <Sparkles className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glow-badge text-xs font-semibold self-center">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 pulse-status shrink-0"></span>
+            <Sparkles className="w-3.5 h-3.5 text-luxury-purple-500" />
             <span>Celebrating regional Indian content creators</span>
           </div>
           
@@ -114,6 +115,8 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
+        <div className="futuristic-divider max-w-4xl mx-auto w-full my-4"></div>
 
         {/* Explain the ATI Concept */}
         <section className="luxury-card p-8 md:p-12 max-w-4xl mx-auto w-full">

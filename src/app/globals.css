@@ -35,12 +35,45 @@ body {
     radial-gradient(at 0% 100%, rgba(99, 102, 241, 0.1) 0px, transparent 40%),
     linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px);
-  background-size: auto, auto, auto, auto, auto, 50px 50px, 50px 50px;
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50px 50px, 50px 50px;
   background-attachment: fixed;
+  animation: meshShift 20s ease infinite alternate;
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
   min-height: 100vh;
   letter-spacing: -0.01em;
+  position: relative;
+}
+
+@keyframes meshShift {
+  0% { background-position: 0% 0%, 100% 100%, 50% 50%, 100% 0%, 0% 100%, 0 0, 0 0; }
+  100% { background-position: 10% 10%, 90% 90%, 60% 40%, 90% 10%, 10% 90%, 0 0, 0 0; }
+}
+
+/* Pulsing status indicator dot */
+.pulse-status {
+  position: relative;
+  display: inline-flex;
+}
+
+.pulse-status::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: inherit;
+  animation: pulseGlow 1.8s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+
+/* Futuristic neon accent lines */
+.futuristic-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.18), rgba(236, 72, 153, 0.18), transparent);
 }
 
 h1, h2, h3, h4, h5, h6 {
