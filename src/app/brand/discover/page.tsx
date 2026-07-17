@@ -290,10 +290,11 @@ export default function BrandDiscover() {
               </div>
             </div>
           ) : (
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="creators-grid">
               {creators.map((c) => (
                 <div 
                   key={c.uid}
+                  data-testid="creator-card"
                   className="bg-white border border-slate-100 rounded-2xl p-5 shadow-2xs hover:shadow-md transition-all flex flex-col justify-between gap-4"
                 >
                   <div className="space-y-3">

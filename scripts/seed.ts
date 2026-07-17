@@ -1,3 +1,28 @@
+import fs from "fs";
+import path from "path";
+
+// Load .env.local if it exists
+try {
+  const envLocalPath = path.join(__dirname, "../.env.local");
+  if (fs.existsSync(envLocalPath)) {
+    const envConfig = fs.readFileSync(envLocalPath, "utf8");
+    envConfig.split("\n").forEach((line) => {
+      const parts = line.split("=");
+      if (parts.length >= 2) {
+        const key = parts[0].trim();
+        let val = parts.slice(1).join("=").trim();
+        if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+          val = val.substring(1, val.length - 1);
+        }
+        process.env[key] = val;
+      }
+    });
+    console.log("Loaded .env.local dynamically into process.env");
+  }
+} catch (e) {
+  console.warn("Failed to load .env.local:", e);
+}
+
 import { readDb, writeDb, DatabaseSchema } from "../src/lib/db";
 import { calculateATI, CreatorProfile, MockEngagementData } from "../src/lib/ati";
 import bcrypt from "bcryptjs";
